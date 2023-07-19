@@ -1,0 +1,62 @@
+.container2 {
+  background-image: url(/src/components/images/photo_2022-07-02_10-51-44.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  width: 400px;
+  background-color: rgba(242, 242, 242, 0.8);
+  border-radius: 25px;
+  padding: 16px;
+  text-align: center;
+}
+
+.card-video {
+  border-radius: 40px;
+  transition: transform 0.3s ease;
+}
+
+.card-video:hover {
+  transform: scale(1.1);
+}
+
+.card_img {
+  transition: transform 0.3s ease;
+}
+
+.card_img:hover {
+  transform: scale(1.1);
+}
+
+.card-button {
+  display: inline-block;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 15px;
+}
+
+.card-button:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.card-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.card-button:active {
+  transform: translateY(2px);
+}

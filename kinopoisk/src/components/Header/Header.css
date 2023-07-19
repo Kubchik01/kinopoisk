@@ -1,0 +1,13 @@
+.inputchik {
+  border-radius: 20px;
+  background: #1D4350;
+  background: -webkit-linear-gradient(to right, #A43931, #1D4350);
+  background: linear-gradient(to right, #A43931, #1D4350);
+  position: relative;
+  bottom: 50px;
+}
+
+.header-title {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}

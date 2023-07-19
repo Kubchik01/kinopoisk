@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #0f0c29;
+  gap: 30px;
+
+}
+
+.card {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.card h4 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-family: cursive;
+}
+
+.card img {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 8px;
+  border-radius: 40px;
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+.card p {
+  font-family: fantasy;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card ul {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: monospace;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.card li {
+  font-size: 18px;
+  font-family: fantasy;
+  margin-bottom: 4px;
+}
+
+
+.knob {
+  display: inline-block;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 15px;
+}
+
+.knob:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.knob:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.knob:active {
+  transform: translateY(2px);
+}
